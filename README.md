@@ -13,7 +13,7 @@ The key features are:
 ![GIF Preview](https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/output1.gif)
 
 ### SMS and Email
-<img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(25).png" width="300" height="600"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(26).png" width="300" height="600"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot_2019-12-01-15-49-30-86.png" width="300" height="600"/>
+<img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(25).png" width="400" height="400"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(26).png" width="400" height="400"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot_2019-12-01-15-49-30-86.png" width="300" height="600"/>
 
 ## Technologies Used
 ### Front-End
@@ -32,7 +32,7 @@ The key features are:
 * npm
 
 ### Using the code
-* Clone this repo: `git clone `
+* Clone this repo: `git clone git@github.com:gauravragini/Entry-Management.git`
 * Run `npm install` to install dependencies
 * `cd` into the repository root and start server: `node server.js`
 * In the browser, navigate to url: `localhost:8080` to use the portal.
