@@ -10,10 +10,10 @@ The key features are:
 
 ## Preview
 ### Web Portal
-![GIF Preview]()
+![GIF Preview](https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/output1.gif)
 
 ### SMS and Email
-<img src="" width="300" height="600"/> <img src="" width="300" height="600"/>
+<img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(25).png" width="300" height="600"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot%20(26).png" width="300" height="600"/> <img src="https://github.com/gauravragini/Entry-Management/blob/master/Screenshots/Screenshot_2019-12-01-15-49-30-86.png" width="300" height="600"/>
 
 ## Technologies Used
 ### Front-End
