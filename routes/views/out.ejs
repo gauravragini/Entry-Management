@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Check Out</title>
+		<link rel="stylesheet" href="/static/css/particles.css">
+        <link rel="stylesheet" href="/static/css/style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    
+    </head>
+	<body>
+         <div id="particle-container">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+             <div class="particle"></div>
+        </div>
+        
+        <div id="header">
+            <h1>THE COMPANY</h1>
+            <h2>Proceed to checkout</h2>
+        </div>
+        <h2>WELCOME Visitor</h2>
+				<div class="center">
+                    <div id="form">
+                        
+					<h2>Enter your contact number</h2>
+                        
+					<div class="data">
+                         <i class="fa fa-phone" aria-hidden="true"></i>
+						<input type="text" class="form-control" id="phone" placeholder="Phone Number">
+					</div>
+                        
+					<button class="btn2" id="submit">
+						<span>CHECK OUT</span>
+					</button>
+				</div>
+            </div>
+        <button id="back" class="btn" onclick="location.href = '/visitor';"><i class="fa fa-angle-double-left"></i>&nbsp;back</button>       
+        
+        <script>
+			$(document).ready(function(){
+			 $("#submit").click(function(){
+   
+				var ph = document.getElementById("phone").value;
+			  axios.post('/out',{
+				  phone: ph
+			  })
+			   .then(function (response) {
+				   if(response.data.submit==="true")
+				   {
+					   alert("Thank You for visiting Innovaccer");
+					   window.location.href = "/";
+				   }
+				   else
+				   {
+					   alert("No Visitor Found");
+				   }
+			   })
+			   .catch(function (error) {
+				   console.log(error);
+			   });
+			 });
+		   });
+		   
+		   </script>
+    </body>
+</html>
