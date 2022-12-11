@@ -13,7 +13,7 @@
     "body-parser": "^1.19.0",
     "concurrently": "^5.0.0",
     "ejs": "^2.7.3",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "mongodb": "^3.3.4",
     "mongoose": "^5.7.11",
     "nexmo": "^2.5.1",
